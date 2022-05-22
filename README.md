@@ -1,6 +1,6 @@
 # so_long
 
-The aim of this project is to create a small 2D game using 42's custom minilibx. 
+The aim of this project is to create a small 2D game using 42's custom graphic library. 
 Players have to pick up all collectables and go to the exit making as few moves as possible.
 
 
