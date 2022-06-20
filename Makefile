@@ -6,7 +6,7 @@
 #    By: dhaliti <dhaliti@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/14 01:08:17 by dhaliti           #+#    #+#              #
-#    Updated: 2022/03/16 10:41:16 by dhaliti          ###   ########.fr        #
+#    Updated: 2022/05/24 14:15:28 by dhaliti          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ PROJECT_H	= srcs/pokemon.h
 OBJS		= $(SRCS:.c=.o)
 OBJECTS_PREFIXED = $(addprefix $(OBJS_DIR), $(OBJS))
 CC			= gcc
-CC_FLAGS	= -Wall -Werror -Wextra
+CC_FLAGS	= -Wall -Werror -Wextra -g
 MLXFLAGS = -framework OpenGL -framework AppKit
 
 $(OBJS_DIR)%.o : %.c $(PROJECT_H)
